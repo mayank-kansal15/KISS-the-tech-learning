@@ -11,12 +11,12 @@ RESTful APIs are written for consumers. The name and structure of URIs should co
 Each resource in a service suite will have at least one URI identifying it. REST URIs should follow a predictable, hierarchical structure to enhance understandability. Predictable in the sense that they're consistent, hierarchical in the sense that data has structure—relationships.
 
 ## Example of REST APIs and how to read them.
-POST /v1/users, read as, create a user in the user collection.
-GET /v1/users, read as, get users from the user collection.
-GET /v1/users/123, read as, get the user 123 from the user collection.
-PUT /v1/users/123, read as, override the user 123 in the user collection.
-PATCH /v1/users/123, read as, modify the user 123 in the user collection.
-DELETE /v1/users/123 read as, delete the user 123 from the user collection.
+- POST /v1/users, read as, create a user in the user collection.
+- GET /v1/users, read as, get users from the user collection.
+- GET /v1/users/123, read as, get the user 123 from the user collection.
+- PUT /v1/users/123, read as, override the user 123 in the user collection.
+- PATCH /v1/users/123, read as, modify the user 123 in the user collection.
+- DELETE /v1/users/123 read as, delete the user 123 from the user collection.
 
 
 # Resources in REST:
